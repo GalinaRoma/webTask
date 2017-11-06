@@ -83,7 +83,8 @@ li form label
     display: inline-block;    
     width: 33%;
     min-width: 220px;
-    height: 25%;
+    min-height: 120px;
+    /* height: 25%; */
     border-radius: 1rem;
     padding: 2%;
     box-shadow: 1px 1px 10px #C0C0C0;
@@ -145,8 +146,9 @@ h2
 {
     display: inline-block;
     width: 30%;
-    min-width: 230px;
-    height: 60%;
+    min-width: 240px;
+    min-height: 275px;
+    height: 50%;
     border: .5px solid #C0C0C0;
     vertical-align: top;
 }
@@ -158,15 +160,16 @@ h2
 {
     position: relative;
     height: 90%;
-    min-width: 230px;
+    min-width: 190px;
 }
 .image_services
 {
     position: absolute;
     display: block;
     width: 95%;
-    max-height: 230px;
-    min-width: 220px;
+    height: 95%;
+    /* min-height: 200px; */
+    min-width: 180px;
     margin: 2.5%;
     bottom: 0;
 }
