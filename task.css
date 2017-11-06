@@ -84,7 +84,6 @@ li form label
     width: 33%;
     min-width: 220px;
     min-height: 120px;
-    /* height: 25%; */
     border-radius: 1rem;
     padding: 2%;
     box-shadow: 1px 1px 10px #C0C0C0;
@@ -122,7 +121,7 @@ input[type="submit"],
 input[type="reset"]
 {
     width: 30%;
-    height: 5%;
+    height: 1.5rem;
     min-width: 250px;
     border-radius: .5rem;
     background-color: #FFE4B5;
@@ -150,25 +149,16 @@ h2
     min-height: 275px;
     height: 50%;
     border: .5px solid #C0C0C0;
-    vertical-align: top;
 }
 .services > li:hover
 {
     box-shadow: 1px 1px 10px #7C7979;
 }
-.for_imageService
-{
-    position: relative;
-    height: 90%;
-    min-width: 190px;
-}
 .image_services
 {
-    position: absolute;
     display: block;
     width: 95%;
     height: 95%;
-    /* min-height: 200px; */
     min-width: 180px;
     margin: 2.5%;
     bottom: 0;
@@ -228,5 +218,12 @@ input[value="fromBank"]:checked ~ label:last-of-type
     .services li
     {
         display: list-item;
+    }
+}
+@media screen and (max-width: 480px)
+{
+    .card
+    {
+        width: 90%;
     }
 }
